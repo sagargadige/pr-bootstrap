@@ -1,0 +1,253 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&display=swap');
+:root{
+    --heading-font:"Inconsolata", monospace;
+}
+header {
+    padding: 15px 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+header .navbar-brand {
+    font-family: "Inconsolata", monospace;
+    font-size: 30px;
+    font-weight: 700;
+    color: black;
+}
+
+/* portfolio strat  */
+.portfolio {
+    padding: 60px 0;
+    font-family: "Inconsolata", monospace;
+}
+
+.portfolio-title h2 {
+    font-size: 24px;
+    color: black;
+}
+
+.portfolio-title p {
+    font-size: 15px;
+    margin-bottom: 1rem;
+}
+
+.card-img-overlay {
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.3s ease-in-out;
+}
+
+.card:hover .card-img-overlay {
+    opacity: 1;
+    visibility: visible;
+    overflow: hidden;
+}
+
+img {
+    transition: all 0.3s;
+
+}
+
+.card:hover img {
+    transform: scale(1.1);
+}
+
+.portfolio-item-icon i {
+    transition: 0.3s;
+}
+
+.portfolio-item-icon i:hover {
+    color: black;
+}
+
+.modal-body {
+    border-top: none;
+    /* border: 1px solid transparent; */
+}
+
+.swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #444;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* portfolio end  */
+
+/* client section start  */
+
+.client-heading h2{
+    font-family: var(--heading-font);
+}
+.client-heading p{
+    font-family: var(--heading-font);
+}
+/* swiper  */
+.swiper {
+  width: 100%;
+  height: 100%;
+  max-width: 1200px;
+  margin: auto;
+  padding-top: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.swiper-slide {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+}
+
+.swiper-slide img {
+  width: 120px;
+  height: auto;
+  filter: grayscale(100%);
+  transition: filter 0.3s;
+}
+
+.swiper-slide img:hover {
+  filter: grayscale(0%);
+}
+
+.swiper-pagination {
+  position: relative;
+  margin-top: 30px;
+  text-align: center;
+}
+
+.swiper-pagination-bullet {
+  background-color: #888;
+  opacity: 1;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: #000;
+}
+
+/* client section end  */
+
+/* services start */
+
+.service-heading h2{
+    font-family: var(--heading-font);
+}
+.service-heading p{
+    font-family: var(--heading-font);
+}
+.service-item{
+    font-family: var(--heading-font);
+    height: 100%;
+}
+.service-item h3{
+    position: relative;
+    width: max-content;
+}
+.service-item h3::after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 4px;
+    bottom: -11px;
+    left: 0;
+    background: rgb(161, 161, 161);
+    transition: 0.3s;
+}
+.service-item:hover h3::after{
+    background: black;
+}
+/* up scroll  */
+.bi-arrow-up-short{
+    color: white;
+    font-size: 28px;
+    background-color: #000;
+    padding: 0px 7px;
+    border-radius: 50%;
+    position: fixed;
+    bottom: 15px;
+    right: 15px;
+}
+/* services end  */
+
+/* testimonials start  */
+.testimonials-heading h2{
+    font-family: var(--heading-font);
+}
+.testimonials-heading p{
+    font-family: var(--heading-font);
+    margin-bottom: 50px;
+}
+
+ .testimonial-img {
+      width: 100px;
+      height: 100px;
+      object-fit: cover;
+      border-radius: 50%;
+      margin: auto;
+    }
+
+    .carousel-indicators {
+      margin-top: 25px; /* Space from testimonial text to indicators */
+    }
+
+    .carousel-indicators [data-bs-target] {
+      width: 12px;
+      height: 12px;
+      border-radius: 50%;
+      background-color: #000;
+      opacity: 0.4;
+      margin: 0 6px;
+    }
+
+    .carousel-indicators .active {
+      opacity: 1;
+    }
+
+    .testimonial-content {
+      font-family: var(--heading-font);
+      font-style: italic;
+      max-width: 80%;
+      margin: auto;
+    }
+.bi-star-fill{
+    margin: 0 1px;
+}
+/* testimonials end  */
+
+/* footer start  */
+footer{
+    font-family: var(--heading-font);
+}
+.social-links i{
+    color: gray;
+    padding: 7px 9px;
+    margin: 0 5px;
+    font-size: 20px;
+    border: 1px solid gray;
+    border-radius: 50%;
+    transition: all 0.3s;
+}
+.social-links i:hover{
+    border: 1px solid black;
+    color: black;
+
+}
+/* footer end  */
+
