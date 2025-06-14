@@ -282,3 +282,51 @@ footer{
 }
 /* project-information end  */
 /* link page end  */
+
+/* service page start  */
+.service-details-heading{
+    font-family: var(--heading-font);
+}
+.service-left ul{
+    font-family: var(--heading-font);
+}
+.service-left ul li{
+    position: relative;
+    transition: 0.3s;
+}
+
+.service-left ul li::before{
+    content: '|';
+    font-size: 35px;
+    color: #888;
+    transition: 0.3s;
+}
+
+.service-left ul li:hover{
+    color: #000;
+    font-weight: bold;
+}
+.service-left ul li:hover::before{
+    color: #000;
+}
+.service-para{
+    font-family: var(--heading-font);
+}
+.service-right{
+    font-family: var(--heading-font);
+    text-align: justify;
+}
+.service-right ul li{
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+.service-right ul li::before{
+    content: '\F26B';
+    font-family:bootstrap-icons !important;
+    padding:0 7px 0 0;
+    line-height: 38px;
+    font-size: 20px;
+    font-weight: 500;
+}
+/* service page end  */
