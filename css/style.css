@@ -251,3 +251,34 @@ footer{
 }
 /* footer end  */
 
+/* link page start  */
+.portfolio-details-heading{
+    font-family: var(--heading-font);
+}
+
+.carousel-item img {
+    max-height: 650px;
+    object-fit: cover;
+    margin: auto;
+  }
+
+  .carousel-indicators {
+    margin-top: 200px; /* Add space above the dots */
+  }
+
+  .carousel-indicators [data-bs-target] {
+    background-color: #000;
+  }
+  #bookCarousel {
+  padding-bottom: 50px;
+}
+
+/* project-information satrt  */
+.project-information{
+    font-family: var(--heading-font);
+}
+.project-para{
+    font-family: var(--heading-font);
+}
+/* project-information end  */
+/* link page end  */
