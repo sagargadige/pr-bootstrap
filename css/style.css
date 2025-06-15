@@ -407,3 +407,39 @@ footer{
     background-color: black;
 }
 /* about section end  */
+
+
+/* service page start  */
+.pricing{
+    font-family: var(--heading-font);
+}
+.pricing-content{
+    font-family: var(--heading-font);
+}
+.buy a{
+    transition: 0.5s;
+    border: 3px solid gray;
+    color: gray;
+}
+.buy a:hover{
+    background-color: #000;
+    color: white;
+    border: 3px solid black;
+}
+.pricing-item-middle{
+    transform: scaleY(1.1);
+}
+.buy-m a{
+    transition: 0.5s;
+    border: 3px solid white;
+    color: white;
+}
+.buy-m a:hover{
+    background-color: white;
+    color: black;
+    border: 3px solid white;
+}
+.alt-p{
+    font-family: var(--heading-font);
+}
+/* service page end  */
