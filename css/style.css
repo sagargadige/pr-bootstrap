@@ -443,3 +443,29 @@ footer{
     font-family: var(--heading-font);
 }
 /* service page end  */
+
+/* contact page start  */
+.contact-item{
+    font-family: var(--heading-font);
+    background: url('../images/contact-bg.png'),rgba(255, 255, 255, 0.694);
+    background-blend-mode: color;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+}
+.contact-item i{
+    padding: 10px 15px;
+    font-size: 20px;
+    margin-right: 10px;
+}
+.contact-item form{
+    background: transparent;
+}
+
+.contact-item form button{
+    padding: 10px 30px;
+    background-color: #000;
+    color: white;
+    margin-top: 20px;
+}
+/* contact page end */
