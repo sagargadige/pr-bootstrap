@@ -263,7 +263,7 @@ footer{
   }
 
   .carousel-indicators {
-    margin-top: 200px; /* Add space above the dots */
+    margin-top: 40px; /* Add space above the dots */
   }
 
   .carousel-indicators [data-bs-target] {
@@ -330,3 +330,80 @@ footer{
     font-weight: 500;
 }
 /* service page end  */
+
+/* about section start  */
+.about-details-heading{
+    font-family: var(--heading-font);
+}
+.right-para{
+    font-family: var(--heading-font);
+}
+.about-content .right-para ul li{
+    position: relative;
+    margin: 15px 0;
+}
+.about-content .right-para ul li::before{
+    content: '\F285';
+    font-family: bootstrap-icons !important;
+    margin-right: 5px;
+    font-size: small;
+    font-weight: bold;
+}
+.resume{
+    font-family: var(--heading-font);
+    padding: 100px;
+}
+.about-content{
+    font-family: var(--heading-font);
+}
+.about-content h4 {
+    position: relative;
+    color:#444;
+    font-size: 21px;
+    text-transform: uppercase;
+}
+
+.about-content h4::before {
+    content: '';
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    border: 2px solid black;
+    border-radius: 50%;
+    background-color: white;
+    left: -32px;
+    top: 6px;
+}
+
+.about-content-left {
+    position: relative;
+    padding-left: 20px;
+}
+
+.about-content-left::before {
+    content: '';
+    position: absolute;
+    left: 10px;
+    top: 61px;
+    width: 2px;
+    height: 90%;
+    background-color: black;
+}
+.about-content-right{
+    font-family: var(--heading-font);
+}
+.about-content-right {
+    position: relative;
+    padding-left: 20px;
+}
+
+.about-content-right::before {
+    content: '';
+    position: absolute;
+    left: 10px;
+    top: 61px;
+    width: 2px;
+    height: 95%;
+    background-color: black;
+}
+/* about section end  */
